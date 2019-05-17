@@ -61,6 +61,25 @@ print(house, '\n')
 house['door'] = 'дверь'     # добавление нового
 print(house, '\n')
 
+# Заполнение словаря
+
+example = {
+    'name': 'Василий',
+    'web': ['pro365.ru', 'pro365.net'],
+    'adr': {'city': 'Мурманск', 'street': 'Ленина'},
+    'nom': 3
+}
+
+print(example, '\n')
+
+print(example['name'])
+print(example['web'][0])
+print(example['web'][1])
+print(example['adr']['city'])
+print(example['adr']['street'])
+print(example['nom'])
+
+
 
 
 
