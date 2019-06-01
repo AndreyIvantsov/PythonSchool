@@ -80,12 +80,3 @@ print(example['adr']['street'])
 print(example['nom'])
 
 
-
-
-
-
-
-
-
-
-
